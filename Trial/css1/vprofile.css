@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/1.jpg);    
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    height: 110vh;
+    display: flex;   
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    top: auto;
+    left: auto;
+    width: 120px;
+    height: auto;
+}
+.bn .cn{
+    
+	margin-left: 500px; 
+	background: greenyellow;
+    width: 160px;
+	height: 40px;
+	font-family: 'Times New Roman';
+	color: #000;
+	font-size: 18px;
+    bottom: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.bn .cn p{
+	text-decoration: none;
+	transition: .3s ease;
+}
+.cn:hover{
+	color: #fff;
+    transition: 0.8s ease;
+    background-color: #0d1033;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #ece8e8; 
+    width: 70%;
+    margin-right: auto;
+    margin-left: 10px;
+
+}
+.brand-section{
+   background-color: #0d1033;
+   padding: 10px 40px;
+}
+.logo{
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6{
+    width: 50%;
+    flex: 0 0 auto;
+}
+.text-white{
+    color: #fff;
+}
+.company-details{
+    float: right;
+    text-align: right;
+}
+
+
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}

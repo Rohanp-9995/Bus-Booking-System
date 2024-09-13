@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+ body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/1.jpg);  
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    }
+
+
+
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+ .container1{
+    max-width: 900px;
+    width: 70%;
+    background-color: rgb(2, 2, 2);
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 50px 10px rgba(0,0,0,0.15);
+    
+ }
+ .container1 .title1{
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 500;
+    position: relative;
+    left: 350px;
+  }
+  .container1 .title1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 130px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  form .user-details .input-box1{
+    margin-bottom: 5px;
+    width: calc(100% / 2 - 20px);
+  }
+  form .input-box1 span.details1{
+    display: block;
+    color: aliceblue;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .input-box1 input{
+    height: 45px;
+    width: 90%;
+    outline: none;
+    font-size: 16px;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid rgb(71, 40, 40);
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  form .category{
+    display: flex;
+    width: 90%;
+    margin: 14px 0 ;
+    justify-content: space-between;
+  }
+  
+  form .button1{
+    height: 45px;
+    margin: 35px 0
+  }
+  form .button1 input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  form .button1 input:hover{
+   /* transform: scale(0.99); */
+   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+   }
+  @media(max-width: 584px){
+  .container1{
+   max-width: 100%;
+ }
+ form .category{
+    width: 100%;
+  }
+
+
